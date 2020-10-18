@@ -9,6 +9,10 @@ header {
   padding: 10px;
 }
 
+/*styling navigation bar*/
+nav{
+  font-size: 18px;
+}
 /*Rounding the images*/
 img {
   width: 100%;
@@ -23,7 +27,6 @@ img {
 /*Styling h2 text*/
 h2{
   font-family: cursive;
-  text-align: center;
   font-size: 36px;
 }
 
@@ -38,17 +41,18 @@ h3{
 p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  text-align: center;
 }
 
 /*adding background color to each section*/
 .about{
   background-color: #43BEE5;
+  text-align: center;
 }
 
 .portfolio{
   background-color: #381DFC;
-  color: darkgray
+  color: darkgray;
+  text-align: center;
 }
 
 /* putting in link rollovers */
@@ -60,6 +64,24 @@ a:active {color: yellow}
 /* styling lists */
 ul, ol, li{
   font-family: sans-serif;
+}
+
+/*formatting footer*/
+footer {
+  text-align: left;
+}
+
+form{
+  padding-right: 20px;
+}
+
+form label{
+  display: block;
+}
+
+form input, form textarea{
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 /* --- Groups & Items (Mobile) --- */

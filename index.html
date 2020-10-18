@@ -10,6 +10,14 @@
     <!-- Title -->
     <header>
       <h1>Kevin Kim</h1>
+      <nav> 
+          <!-- Linking Navigation Bar With Home, Intro, About Me, Portfolio and Contact -->
+          <a href = "index.html">Home</a>
+          <a href="#Introduction">Introduction</a>
+          <a href="#About-Me">About Me</a>
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#Contact">Contact</a>
+      </nav>
     </header>
 
     <main>
@@ -22,10 +30,13 @@
             
             <!-- My Introduction -->
             <div class ="item">
-              <p>Hello! My name is Kevin Kim! Welcome to my webpage!</p>
+              <section id="Introduction">
+              <h2>Hello! My name is Kevin Kim!</h2>
+              <h2>Welcome to my webpage!</h2>
               <p>I am a Korean-American born in <a href = "https://www.google.com/maps/place/Los+Angeles,+CA/@34.0201613,-118.6919136,10z/data=!3m1!4b1!4m5!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0522342!4d-118.2436849" target = "_blank"> Los Angeles, CA </a> who currently works at a logistics company and specializes in air e-commerce shipments. It is a very busy job to have.</p>
               
               <p>Sending shipments through air means that a shipment is very urgent and customer is paying a lot of money to have it delivered quickly. My job is to make sure all e-commerce related shipments get picked up and delivered in a timely matter.</p>
+              </section>
             </div>
           </div>
         </article>
@@ -35,6 +46,7 @@
     <div class="about">
       <article>
         <div>
+          <section id="About-Me">
           <h2>About Me</h2>
           <div class="group">
             <div class="item-double">
@@ -46,12 +58,14 @@
             <img src = "photos/deadlift.jpg" img = "Deadlift" class = "image">
           </div>
           </div>
+          </section>
         </div>
       </article>
     </div>
 
       <!--Portfolio-->
       <article class="portfolio">
+        <section id="Portfolio">
         <h2>Portfolio</h2>
         <div class="group">
           <div class="item">
@@ -73,23 +87,40 @@
               <!--Insert GitHub link for music library here--></p>
           </div>
         </div>
+        </section>
       </article>
     </main>
 
     <!--Contact Section-->
     <footer>
       <article class = "contact">
+        <section id="Contact">
         <h2>Contact</h2>
-        <div class="group">
-          <div class="item">
-            <p>You can contact me through the following:</p>
-             <ul>
-              <li> <a href="https://www.linkedin.com/in/kevin-kim-8747b01b7/"> LinkedIn </a> </li>
-              <li> <a href="https://github.com/kewki511"> GitHub </a></li>
-              <li> <a href="mailto:kevkim511@yahoo.com"> Email </a></li>
-              </ul>
-          </div>
-        </div>
+         <div class="group">
+          <div class="item-double">
+          <form action="#" method="POST">
+            <label for="user-name">Name:</label>
+            <input id="user-name" type="text" name="name">
+
+            <label for="user-email">Email:</label>
+            <input id="user-email" type="text" name="email">
+
+            <label for="user-message">Message:</label>
+            <textarea id="user-message" name="message"></textarea>
+            <button type="submit">Submit</button>
+            </form>
+           </div>
+           <div class="group">
+              <div class="item">
+                <p>You can contact me through the following:</p>
+                <ul>
+                  <li> <a href="https://www.linkedin.com/in/kevin-kim-8747b01b7/"> LinkedIn </a> </li>
+                  <li> <a href="https://github.com/kewki511"> GitHub </a></li>
+                  <li> <a href="mailto:kevkim511@yahoo.com"> Email </a></li>
+                </ul>
+              </div>
+            </div>
+        </section>
       </article>
     </footer>
 
