@@ -12,6 +12,7 @@ header {
 /*styling navigation bar*/
 nav{
   font-size: 18px;
+  color: lightgray;
 }
 /*Rounding the images*/
 img {
@@ -56,7 +57,7 @@ p{
 }
 
 /* putting in link rollovers */
-a:link {color: blue}
+a:link {color: gray}
 a:visited {color: red}
 a:hover {color: pink}
 a:active {color: yellow}
